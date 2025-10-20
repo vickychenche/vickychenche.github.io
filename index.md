@@ -1,4 +1,4 @@
-![Alt text](images/profile.jpg)
+![Alt text](images/profile.JPG)
 
 I recently graduated from the University of Toronto, specializing in Computer Science with a minor in Biology. Now that I’m stepping into the real world, I’m working as a Data Engineer at Hubio.
 
