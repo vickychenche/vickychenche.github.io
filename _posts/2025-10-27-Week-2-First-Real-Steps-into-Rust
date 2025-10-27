@@ -1,0 +1,68 @@
+# Week 2 — First Real Steps into Rust
+
+## So what is Rust?
+
+Rust is a systems-level programming language built with a clear purpose: speed, safety, and efficiency. It's the language you'd reach for when building performance-critical systems — think operating systems, compilers, game engines, or embedded systems.
+
+People often rave about it for its memory safety without garbage collection, tight performance guarantees, and developer-friendly tooling. In fact, this [StackOverflow article](https://stackoverflow.blog/2020/06/05/why-the-developers-who-use-rust-love-it-so-much/) does a great job explaining why developers are obsessed with it.
+
+But is that why I'm learning Rust? No. It's simply because I want to be a Rustacean.
+
+**People say I'm "rusting" away. Joke's on them — I call it becoming a Rustacean.**
+
+## Where I started
+
+Here are the main places that helped me get going:
+- [Rust Official](https://rust-lang.org/)
+- [This Week in Rust](https://this-week-in-rust.org/)
+- [Learn Rust 101](https://rust-lang.guide/intro/index.html)
+- [Tour of Rust](https://tourofrust.com/index.html)
+
+After going through a dozen links, I picked **Tour of Rust** as my structured starting point. Honestly, I am glad I did. It is a great place to start if you already have experience in another language. What I like about this is that it doesn't focus on the syntax but the concept of Rust. It gives you a perfect overview to parts of Rust that are actually different (ownership, pattern matching, safety rules). If you already know how to code and just want to get oriented, this is a solid entry point.
+
+## Early Impressions
+
+### `match` vs `switch`
+Coming from C-like languages, `match` feels familiar but much more expressive. You can pattern match against values, ranges, and even destructure — something a traditional `switch` just doesn't do.
+
+```rust
+fn main() {
+    let x = 42;
+
+    match x {
+        0 => {
+            println!("found zero");
+        }
+        // we can match against multiple values
+        1 | 2 => {
+            println!("found 1 or 2!");
+        }
+        // we can match against ranges
+        3..=9 => {
+            println!("found a number 3 to 9 inclusively");
+        }
+        // we can bind the matched number to a variable
+        matched_num @ 10..=100 => {
+            println!("found {} number between 10 to 100!", matched_num);
+        }
+        // this is the default match that must exist if not all cases are handled
+        _ => {
+            println!("found something else!");
+        }
+    }
+}
+```
+
+### "Rust is not OOP"… and yet, sort of is
+No classes, no inheritance — but you can still do encapsulation with `impl` blocks and define methods on types. So in practice, you still get structured, contained behavior without traditional OOP baggage. Weird right? I'm still letting this sink in.
+
+## Outside the Tutorial
+
+Once I wrapped up the initial parts, I started poking around [rust-learning](https://github.com/ctjhoa/rust-learning):
+- Played with a CSV parser just to see how Rust handles basic IO
+- CLI commands
+
+## Next Steps
+
+After following a couple of the tutorials from the rust-learning repo, I am planning on picking up a more intermediate project. I am thinking of an audio player of some sort.
+
