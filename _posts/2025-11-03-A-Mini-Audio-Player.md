@@ -53,10 +53,10 @@ I'm heading out on vacation to hike and climb some cool rocks (priorities, right
 - Make the UI less janky — right now it looks... functional. That's the nicest way I can put it.
 - Maybe add a seek bar if I'm feeling ambitious
 
-![Current state of the audio player](/images/2025-11-03.png)
+![Current state of the audio player]({{ "/images/2025-11-03.png" | relative_url }})
 
 ---
 
-This project has been exciting for me, I've always wanted to make a fully customizeb player with whatever features I like. I am purpusly implementing one function at a time to learn and gain a deeper understanding of Rust.
+This project has been exciting for me, I've always wanted to make a fully customized player with whatever features I like. I am purposely implementing one function at a time to learn and gain a deeper understanding of Rust.
 
 See you after the climbing trip. 🧗‍♀️
