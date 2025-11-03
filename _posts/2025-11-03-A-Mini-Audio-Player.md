@@ -47,11 +47,11 @@ pub fn get_position(&self) -> Duration {
 
 ## Next Steps
 
-I'm heading out on vacation to hike and climb some cool rocks (priorities, right?), so I'm keeping my next-week goals realistic:
+I'm heading out on vacation to hike and climb some cool rocks, so I'm keeping my next-week goals realistic:
 
 - Add previous/next track buttons (currently it only auto-advances)
-- Make the UI less janky — right now it looks... functional. That's the nicest way I can put it.
-- Maybe add a seek bar if I'm feeling ambitious
+- Make the UI less janky — right now it looks... functional. 
+- Maybe show all the songs that is avaliable instead of just a number.
 
 ![Current state of the audio player]({{ "/images/2025-11-03.png" | relative_url }})
 
