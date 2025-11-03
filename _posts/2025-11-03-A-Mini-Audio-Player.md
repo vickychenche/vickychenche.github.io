@@ -53,7 +53,7 @@ I'm heading out on vacation to hike and climb some cool rocks (priorities, right
 - Make the UI less janky — right now it looks... functional. That's the nicest way I can put it.
 - Maybe add a seek bar if I'm feeling ambitious
 
-![Current state of the audio player](../images/2025-11-03.png)
+![Current state of the audio player](/images/2025-11-03.png)
 
 ---
 
