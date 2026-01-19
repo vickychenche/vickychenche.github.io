@@ -1,0 +1,74 @@
+- title: "IBA Finance Comp: 2nd Place"
+  summary: "Designed & structured the final pitch deck, translating market research, user demographics, & competitive analysis into a compelling presentation. Proposed a strategic solution for Disney+ growth, leveraging financial modeling and competitor benchmarking to optimize content strategy and revenue potential."
+  link: "https://www.canva.com/design/DAGeG0N6NSk/k8tzV3HWVKMqZOWqQe4nhA/edit"
+  category: "Design"
+  skills:
+    - "deck design"
+    - "public speaking"
+    - "market research"
+
+- title: "Human Computer Interaction"
+  summary: "In the past fall I learned about Human Computer Interaction. It was refreshing to learn that innovation does not only come from just your brain, it can be drawn from existing research to create something not only what you envision but what the user needs. This first project taught me the process of defining the problem, ideating solutions, making a prototype and testing it with potential users. This project taught me how to analyze an existing research, creating improvements and testing it through A/B Comparison."
+  link: "https://docs.google.com/document/d/17CvKhuY_NVHCJVyCqonVdJagadDQA4C_UHsICO3oRtg/edit?usp=sharing"
+  category: "Design"
+  skills:
+    - "user centered design"
+    - "user research"
+    - "iterative design process"
+  additional_links:
+    - title: "Randomize A/B Comparison"
+      url: "https://docs.google.com/document/d/17CvKhuY_NVHCJVyCqonVdJagadDQA4C_UHsICO3oRtg/edit?usp=sharing"
+    - title: "Design, Ideate, Prototype, and Test"
+      url: "https://docs.google.com/document/d/15Q7Dctra_1eaoHWLAIKvRxu7XwG9yMzoCwrFnyAQvQA/edit?usp=sharing"
+
+- title: "Usability Test Report"
+  summary: "From sketching low-fidelity prototype on flash cards to creating a working prototype on Figma, my biggest take away is always test. We may think our design is easily useable but without testing it out how do we know?"
+  link: "https://docs.google.com/presentation/d/e/2PACX-1vQLaKaXMyZXjmPkoTkzKWif9loR3ZfVGm__W-ARQVK3L8zV3LOa0GErL1BYY0nwTGQpxggpd740qMIt/pub?start=false&loop=false&delayms=3000&slide=id.p"
+  category: "Design"
+  skills:
+    - "FIGMA"
+    - "prototyping"
+    - "user testing"
+  additional_links:
+    - title: "Figma Prototype"
+      url: "https://www.figma.com/proto/QLY8Ob81vpzqUKkajt7XYL/HiFi-prototype-Demo?node-id=217-14663&node-type=canvas&t=Tl2YmNIUnY5VmIDq-1&scaling=scale-down&content-scaling=fixed&page-id=217%3A10397&starting-point-node-id=217%3A14663&show-proto-sidebar=1"
+
+- title: "Crafting Interpreter: Clox"
+  summary: "Implemented a bytecode virtual machine (VM) from scratch, focusing on low-level memory management and runtime optimization. Developed a recursive descent parser and abstract syntax tree (AST) to compile high-level Lox code into bytecode. Built core components including garbage collection, object representation, and bytecode compilation. Gained hands-on experience with stack-based execution, bytecode generation, and memory safety while implementing the VM."
+  link: "https://github.com/vickychenche/Crafting_Interpreter"
+  category: "Technical"
+  skills:
+    - "C"
+    - "memory management"
+    - "virtual machine"
+    - "compiler design"
+    - "garbage collection"
+
+- title: "Application and Analysis of Black and White Image Colorization Using Modified UNet and Patch GAN"
+  summary: "Implemented a GAN model with a U-Net generator and PatchGAN discriminator to colorize grayscale images, focusing on naturalistic color reproduction and fine detail. Modified commonly used U-Net architecture by introducing a bottleneck based on recurrent neural networks (RNN) to handle complex dependencies between colorized outputs, producing a more saturated and vibrant image."
+  link: "https://github.com/Ibraheem014/ColorGANvas"
+  category: "Technical"
+  skills:
+    - "PyTorch"
+    - "GAN"
+    - "U-Net"
+
+- title: "Rust Audio Player"
+  summary: "Learned Rust fundamentals by building a GUI-based audio player, exploring ownership, borrowing, and memory safety concepts through hands-on implementation. Integrated Rust GUI crates to create an interactive user interface, gaining experience with Rust's crate ecosystem and dependency management. Implemented audio playback and playlist management features, applying Rust's type system and error handling patterns to build a functional application. Developed proficiency in Rust by working with external libraries, file I/O operations, and asynchronous programming patterns."
+  link: "https://github.com/vickychenche/audio_player"
+  category: "Technical"
+  skills:
+    - "Rust"
+    - "audio processing"
+
+- title: "Vlogging"
+  summary: "Sometimes, I enjoy the stress and can be a bit of a workaholic. Vlogging my trips, and rewatching them tells me to take a step back and enjoy life."
+  link: ""
+  category: "Personal"
+  skills: []
+  projects:
+    - title: "Hawaii"
+      link: ""
+    - title: "Montreal"
+      link: ""
+
