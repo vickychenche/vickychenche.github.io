@@ -71,7 +71,10 @@
       link: ""
     - title: "Montreal"
       link: ""
-  additional_links:
-    - title: "Instagram"
-      url: "https://www.instagram.com/lilglucose/"
+
+- title: "Instagram"
+  link_text: "lilglucose"
+  link: "https://www.instagram.com/lilglucose/"
+  category: "Personal"
+  skills: []
 

@@ -13,12 +13,16 @@ title: Projects
   <ul>
     {% for project in category.items %}
       <li>
-        {% if project.link and project.link != "" %}
+        {% if project.link_text and project.link and project.link != "" %}
+          {{ project.title }}: <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.link_text }}</a>
+        {% elsif project.link and project.link != "" %}
           <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
         {% else %}
           <strong>{{ project.title }}</strong>
         {% endif %}
+        {% if project.summary and project.summary != "" %}
         <p style="margin-top: 0.5em; margin-bottom: 1em;">{{ project.summary }}</p>
+        {% endif %}
         {% if project.skills and project.skills.size > 0 %}
           <p style="margin-top: 0.5em; margin-bottom: 1em;"><strong>Skills:</strong> {{ project.skills | join: ", " }}</p>
         {% endif %}
