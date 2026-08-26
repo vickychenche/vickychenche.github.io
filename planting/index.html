@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tomorrow's Forests 2026–27 budget</title>
+  <meta name="description" content="Season earnings estimate for Tomorrow's Forests tree planting, including visa, flights, food and Christmas in Toronto." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">2026–27 planting season</p>
+      <h1>Tomorrow's Forests budget</h1>
+      <p class="lede">
+        Estimate for a Canadian planter with one season already done.
+        Default is the <strong>lowest figures in their email</strong>
+        (400 tubes at 65p, or 2,500 trees at 12p), proper meals, and Christmas at home in Toronto.
+      </p>
+    </header>
+
+    <section class="controls" aria-label="Assumptions">
+      <div class="control">
+        <span class="control-label">Rotation</span>
+        <div class="pills" id="rotation-pills"></div>
+      </div>
+      <div class="control">
+        <span class="control-label">Pace</span>
+        <div class="pills" id="pace-pills"></div>
+      </div>
+      <div class="control">
+        <span class="control-label">Food</span>
+        <div class="pills" id="food-pills"></div>
+      </div>
+      <p class="hint" id="pace-detail"></p>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <p class="cad" id="cad-line"></p>
+
+    <section>
+      <h2>Where the money goes</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th></th><th>GBP</th><th>CAD</th></tr>
+          </thead>
+          <tbody id="breakdown"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Lowest rates they quoted</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Work type</th>
+              <th>Lowest output</th>
+              <th>Lowest rate</th>
+              <th>Day gross</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Straight planting</td>
+              <td>2,500 trees (range 2,500–3,000)</td>
+              <td>12p (from 12p; typical 13–17p)</td>
+              <td>£300</td>
+            </tr>
+            <tr>
+              <td>Stakes and tubes</td>
+              <td>400 units (range 400–600)</td>
+              <td>65p (range 65p–£1.00)</td>
+              <td>£260</td>
+            </tr>
+            <tr>
+              <td>Canes and spirals</td>
+              <td>500 units (range 500–750)</td>
+              <td>40p</td>
+              <td>£200</td>
+            </tr>
+            <tr>
+              <td>Day-rate contracts</td>
+              <td>1 day</td>
+              <td>£180 (lodging drops to £15)</td>
+              <td>£180</td>
+            </tr>
+            <tr>
+              <td>Blended low (default)</td>
+              <td>Mostly tubes, some straight, some canes/day-rate</td>
+              <td>—</td>
+              <td>£260</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Canada costs to get there</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Item</th><th>GBP</th><th>CAD at 1.88</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Youth Mobility visa fee</td><td>£340</td><td>C$639</td></tr>
+            <tr><td>Immigration Health Surcharge (2 years at £776/year)</td><td>£1,552</td><td>C$2,918</td></tr>
+            <tr><td>Season return Toronto–UK (Nov out, May back)</td><td>£700</td><td>C$1,316</td></tr>
+            <tr><td>Christmas return UK–Toronto–UK (peak)</td><td>£900</td><td>C$1,692</td></tr>
+            <tr><td>Savings you must show (not a fee — you keep this)</td><td>£2,530</td><td>C$4,756</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">
+        Official Home Office fees as of 8 April 2026. Confirm on
+        <a href="https://www.gov.uk/youth-mobility">GOV.UK Youth Mobility</a>
+        and
+        <a href="https://www.gov.uk/healthcare-immigration-application/how-much-pay">IHS</a>
+        before you pay. Christmas ticket: last work 18 Dec, fly ~19 Dec, be back by 8 Jan.
+        Give the company two weeks’ written notice you will not need housing over the break.
+      </p>
+    </section>
+
+    <section>
+      <h2>Food</h2>
+      <p>
+        The company does not feed you. Default is proper meals: about £20 on a work day
+        and £135 a week in the UK, plus £15/day while you are home in Toronto for Christmas.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Tight Aldi</th>
+              <th>Enough calories</th>
+              <th>Proper meals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Work-day food</td><td>£11</td><td>£15</td><td>£20</td></tr>
+            <tr><td>UK rest day</td><td>£8</td><td>£12</td><td>£16</td></tr>
+            <tr><td>Weekly UK shop</td><td>~£70</td><td>~£95</td><td>~£135</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Season calendar</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Block</th><th>Dates</th><th>Days</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>On camp before Christmas</td><td>1 Nov – 18 Dec 2026</td><td>48</td></tr>
+            <tr><td>Christmas at home in Toronto (no company lodging)</td><td>19 Dec 2026 – 10 Jan 2027</td><td>23</td></tr>
+            <tr><td>On camp after Christmas</td><td>11 Jan – 31 May 2027</td><td>141</td></tr>
+            <tr><td>Days you pay £27.50 lodging</td><td>Rest days included; not Christmas</td><td>189</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="disclaimer">
+      <h2>What this is not</h2>
+      <p>
+        Not an offer, payroll forecast, or tax advice. Piecework depends on the site, weather,
+        specification and inspection. Lodging is £27.50 per calendar day as a new planter with
+        this company. Self-employed tax estimate deducts lodging only. 12% of scheduled work days
+        are treated as rain/move downtime. Rates from Tomorrow's Forests 2026–27 information email.
+      </p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
